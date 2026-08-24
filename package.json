@@ -1,0 +1,13 @@
+{
+  "name": "draps-et-douceur-site",
+  "version": "1.0.0",
+  "description": "Site statique pour Draps & Douceurs avec option d'intégration Instagram via serveur",
+  "main": "server/instagram-fetch.js",
+  "scripts": {
+    "start": "node server/instagram-fetch.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.12"
+  }
+}
